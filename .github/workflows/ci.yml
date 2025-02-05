@@ -32,7 +32,7 @@ jobs:
     outputs:
       wheel-distribution: ${{ steps.wheel-distribution.outputs.path }}
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         with: {fetch-depth: 0}  # deep clone for setuptools-scm
       - uses: actions/setup-python@v4
         id: setup-python
