@@ -44,7 +44,7 @@ ResNet50
 
 ViT
 
-| Metric    | Time to compute (s) | 
+| Metric    | Time to compute (s) |
 |:---------:|:-------------------:|
 | $\alpha$-ReQ |      0.137       |
 | RankMe    |         0.091       |
