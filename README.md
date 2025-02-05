@@ -32,24 +32,23 @@ To learn more about why these metrics are essential in modern DL workflows, chec
 - **RankMe**: This metric computes the rank of the covariance matrix of the representations. A higher rank indicates representations of higher capacity.
 - **LiDAR**: This metric computes the rank of the linear discriminant analysis (LDA) matrix. A higher rank indicates representations with higher degree of seperability among object manifolds.
 
-**TODO**: Fill out the numbers
 
 ResNet50
 
-| Metric    | Time to compute (s) | Memory requirement (GB) |
-|:---------:|:-------------------:|:-----------------------:|
-| $\alpha$-ReQ |      2.400       |                         |
-| RankMe    |         2.364       |                         |
-| LiDAR     |         7.929       |                         |
+| Metric    | Time to compute (s) |
+|:---------:|:-------------------:|
+| $\alpha$-ReQ |      2.400       |
+| RankMe    |         2.364       |
+| LiDAR     |         7.929       |
 
 
 ViT
 
-| Metric    | Time to compute (s) | Memory requirement (GB) |
-|:---------:|:-------------------:|:-----------------------:|
-| $\alpha$-ReQ |      0.137          |                         |
-| RankMe    |         0.091       |                         |
-| LiDAR     |         0.162       |                         |
+| Metric    | Time to compute (s) | 
+|:---------:|:-------------------:|
+| $\alpha$-ReQ |      0.137       |
+| RankMe    |         0.091       |
+| LiDAR     |         0.162       |
 
 
 ## Using Reptrix in your own workflow
@@ -106,7 +105,6 @@ metric_lidar = lidar.get_lidar(all_representations_lidar, num_samples,
 
 
 ## Installation
-**TODO: Update and test this!**
 
 ### Using pypi
 You can install the latest version of reptrix using:
