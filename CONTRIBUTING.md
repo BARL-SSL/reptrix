@@ -307,5 +307,5 @@ on [PyPI], the following steps can be used to release a new version for
 [tox]: https://tox.readthedocs.io/en/stable/
 [virtual environment]: https://realpython.com/python-virtual-environments-a-primer/
 [virtualenv]: https://virtualenv.pypa.io/en/stable/s
-[repository]: https://github.com/arnab39/reptrix
-[issue tracker]: https://github.com/arnab39/reptrix/issues
+[repository]: https://github.com/BARL-SSL/reptrix
+[issue tracker]: https://github.com/BARL-SSL/reptrix/issues

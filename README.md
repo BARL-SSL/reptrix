@@ -10,7 +10,7 @@
 
 <p align="center">
     <br>
-    <img src="https://github.com/arnab39/reptrix/assets/6922389/06e6bffb-adac-460b-81b4-b1078859b563" alt="Reptrix" width="200"/>
+    <img src="https://github.com/BARL-SSL/reptrix/assets/6922389/06e6bffb-adac-460b-81b4-b1078859b563" alt="Reptrix" width="200"/>
     <br>
 <p>
 
@@ -32,24 +32,23 @@ To learn more about why these metrics are essential in modern DL workflows, chec
 - **RankMe**: This metric computes the rank of the covariance matrix of the representations. A higher rank indicates representations of higher capacity.
 - **LiDAR**: This metric computes the rank of the linear discriminant analysis (LDA) matrix. A higher rank indicates representations with higher degree of seperability among object manifolds.
 
-**TODO**: Fill out the numbers
 
 ResNet50
 
-| Metric    | Time to compute (s) | Memory requirement (GB) |
-|:---------:|:-------------------:|:-----------------------:|
-| $\alpha$-ReQ |      2.400       |                         |
-| RankMe    |         2.364       |                         |
-| LiDAR     |         7.929       |                         |
+| Metric    | Time to compute (s) |
+|:---------:|:-------------------:|
+| $\alpha$-ReQ |      2.400       |
+| RankMe    |         2.364       |
+| LiDAR     |         7.929       |
 
 
 ViT
 
-| Metric    | Time to compute (s) | Memory requirement (GB) |
-|:---------:|:-------------------:|:-----------------------:|
-| $\alpha$-ReQ |      0.137          |                         |
-| RankMe    |         0.091       |                         |
-| LiDAR     |         0.162       |                         |
+| Metric    | Time to compute (s) |
+|:---------:|:-------------------:|
+| $\alpha$-ReQ |      0.137       |
+| RankMe    |         0.091       |
+| LiDAR     |         0.162       |
 
 
 ## Using Reptrix in your own workflow
@@ -106,7 +105,6 @@ metric_lidar = lidar.get_lidar(all_representations_lidar, num_samples,
 
 
 ## Installation
-**TODO: Update and test this!**
 
 ### Using pypi
 You can install the latest version of reptrix using:
@@ -117,7 +115,7 @@ You can install the latest version of reptrix using:
 
 You can clone this repository and manually install it with:
 
-```pip install git+https://github.com/arnab39/reptrix```
+```pip install git+https://github.com/BARL-SSL/reptrix```
 
 ### Setup Conda environment for examples
 
@@ -138,7 +136,7 @@ We provide a [tutorial iPython notebook](tutorial.ipynb) that shows how you can 
 ## Related papers and Citations
 
 This library currently supports metrics proposed in three different papers:
-1. $\alpha$[-ReQ : Assessing Representation Quality in Self-Supervised Learning by measuring eigenspectrum decay (NeurIPS 2022](https://proceedings.neurips.cc/paper_files/paper/2022/hash/70596d70542c51c8d9b4e423f4bf2736-Abstract-Conference.html)
+1. $\alpha$[-ReQ : Assessing Representation Quality in Self-Supervised Learning by measuring eigenspectrum decay (NeurIPS 2022])(https://proceedings.neurips.cc/paper_files/paper/2022/hash/70596d70542c51c8d9b4e423f4bf2736-Abstract-Conference.html)
 2. [RankMe: Assessing the Downstream Performance of Pretrained Self-Supervised Representations by Their Rank (ICML 2023)](https://proceedings.mlr.press/v202/garrido23a)
 3. [LiDAR: Sensing Linear Probing Performance in Joint Embedding SSL Architectures (ICLR 2024)](https://openreview.net/forum?id=f3g5XpL9Kb)
 
@@ -147,7 +145,7 @@ This library currently supports metrics proposed in three different papers:
 ## Contact
 
 For questions related to this code, please raise an issue and you can mail us:
-[Arna Ghosh](mailto:ghosharn@mila.quebec), [Arnab K Mondal](arnab.mondal@mila.quebec), [Kumar K Agrawal](kagrawal@berkeley.edu)
+[Arna Ghosh](mailto:arna.ghosh@mail.mcgill.ca), [Arnab K Mondal](mailto:arnab.mondal@mail.mcgill.ca), [Danielle Benesch](mailto:dbenesch@uos.de), [Kumar K Agrawal](mailto:kagrawal@berkeley.edu)
 
 ## Contributing
 
