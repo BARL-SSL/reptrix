@@ -10,7 +10,7 @@
 
 <p align="center">
     <br>
-    <img src="https://github.com/arnab39/reptrix/assets/6922389/06e6bffb-adac-460b-81b4-b1078859b563" alt="Reptrix" width="200"/>
+    <img src="https://github.com/BARL-SSL/reptrix/assets/6922389/06e6bffb-adac-460b-81b4-b1078859b563" alt="Reptrix" width="200"/>
     <br>
 <p>
 
@@ -117,7 +117,7 @@ You can install the latest version of reptrix using:
 
 You can clone this repository and manually install it with:
 
-```pip install git+https://github.com/arnab39/reptrix```
+```pip install git+https://github.com/BARL-SSL/reptrix```
 
 ### Setup Conda environment for examples
 
