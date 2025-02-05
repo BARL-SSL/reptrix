@@ -136,7 +136,7 @@ We provide a [tutorial iPython notebook](tutorial.ipynb) that shows how you can 
 ## Related papers and Citations
 
 This library currently supports metrics proposed in three different papers:
-1. $\alpha$[-ReQ : Assessing Representation Quality in Self-Supervised Learning by measuring eigenspectrum decay (NeurIPS 2022](https://proceedings.neurips.cc/paper_files/paper/2022/hash/70596d70542c51c8d9b4e423f4bf2736-Abstract-Conference.html)
+1. $\alpha$[-ReQ : Assessing Representation Quality in Self-Supervised Learning by measuring eigenspectrum decay (NeurIPS 2022])(https://proceedings.neurips.cc/paper_files/paper/2022/hash/70596d70542c51c8d9b4e423f4bf2736-Abstract-Conference.html)
 2. [RankMe: Assessing the Downstream Performance of Pretrained Self-Supervised Representations by Their Rank (ICML 2023)](https://proceedings.mlr.press/v202/garrido23a)
 3. [LiDAR: Sensing Linear Probing Performance in Joint Embedding SSL Architectures (ICLR 2024)](https://openreview.net/forum?id=f3g5XpL9Kb)
 
@@ -145,7 +145,7 @@ This library currently supports metrics proposed in three different papers:
 ## Contact
 
 For questions related to this code, please raise an issue and you can mail us:
-[Arna Ghosh](mailto:ghosharn@mila.quebec), [Arnab K Mondal](arnab.mondal@mila.quebec), [Kumar K Agrawal](kagrawal@berkeley.edu)
+[Arna Ghosh](mailto:arna.ghosh@mail.mcgill.ca), [Arnab K Mondal](mailto:arnab.mondal@mail.mcgill.ca), [Danielle Benesch](mailto:dbenesch@uos.de), [Kumar K Agrawal](mailto:kagrawal@berkeley.edu)
 
 ## Contributing
 
