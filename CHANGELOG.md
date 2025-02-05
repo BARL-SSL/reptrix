@@ -14,6 +14,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 - Rename all instances of https://github.com/arnab39/reptrix to https://github.com/BARL-SSL/reptrix
+- Updated emails and Readme
 
 ### Removed
 
